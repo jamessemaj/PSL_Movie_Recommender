@@ -154,7 +154,7 @@ def get_movie_card(movie, with_rating=False):
         dbc.Card(
             [
                 dbc.CardImg(
-                    src=f"https://liangfgithub.github.io/MovieImages/{movie.name}.jpg?raw=true",
+                    src=f"https://liangfgithub.github.io/MovieImages/{movie.name[1:]}.jpg?raw=true",
                     top=True,
                     style={"height": "300px", "object-fit": "cover"},
                 ),
